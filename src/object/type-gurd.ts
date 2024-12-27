@@ -1,14 +1,14 @@
-type Alphanumeric = string | number;
+// type Alphanumeric = string | number;
 
-function add(a: Alphanumeric, b: Alphanumeric): Alphanumeric {
-  if (typeof a === "number" && typeof b === "number") {
-    return a + b;
-  } else if (typeof a === "string" && typeof b === "string") {
-    return a + b;
-  } else {
-    throw new Error("Parameters must be numbers or strings");
-  }
-}
+// function add(a: Alphanumeric, b: Alphanumeric): Alphanumeric {
+//   if (typeof a === "number" && typeof b === "number") {
+//     return a + b;
+//   } else if (typeof a === "string" && typeof b === "string") {
+//     return a + b;
+//   } else {
+//     throw new Error("Parameters must be numbers or strings");
+//   }
+// }
 
 type Cat = {
   type: "cat";
